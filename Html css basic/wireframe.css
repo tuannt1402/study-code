@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .header__top {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background: #61c0cf75;
+    width: 100%;
+}
+
+header .header__top .search {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    background: #FFF;
+}
+
+header .header__top .search button {
+    background: inherit;
+    padding: 0;
+}
+
+header .header__top .search img {
+    width: 20px;
+    height: 20px;
+}
+
+header .header__top .search input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+header .header__top img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header .header__top button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #61c0cf;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+header .header__bottom {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 94px;
+    background: #69e2f521;
+}
+
+header  .header__bottom ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header  .header__bottom ul li {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #61c0cf;
+    border-radius: 10px;
+    /* min-width: 130px; */
+}
+
+header  .header__bottom ul li a{
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .background__image{
+    background: #69e2f521;
+}
+
+.container .background__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container .slider__header {
+    padding: 20px;
+    background: #69e2f521;
+}
+
+.container .slider__header h2 {
+    padding: 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #61c0cf;
+
+}
+
+.container .slider__header .slider__header-frame{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    overflow: auto;
+    user-select: none;
+}
+
+.container .slider__header .slider__header-element img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container .introduce__dog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 30px;
+    background: #69e2f521;
+}
+
+.container .introduce__dog p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container .introduce__dog .introduce__dog-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 20px 20px 10px;
+    background: #61c0cf;
+    gap: 20px;
+}
+
+footer .signup__CTA-left .signup__CTA-head {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+footer .signup__CTA-left .signup__CTA-input {
+    display: flex;
+    gap: 10px;
+}
+
+footer .signup__CTA-left .signup__CTA-input input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+footer .signup__CTA-left .signup__CTA-input button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+footer .signup__CTA-right {
+    display: flex;
+    gap: 20px;
+}
+
+footer .signup__CTA-right .signup__CTA-text{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+.slider__header-frame::-webkit-scrollbar {
+    height: 6px;
+}
+.slider__header-frame::-webkit-scrollbar-thumb {
+    background-color: rgba(116, 243, 243, 0.726);
+}
+.slider__header-frame::-webkit-scrollbar-track {
+    background-color: inherit;
+} 
