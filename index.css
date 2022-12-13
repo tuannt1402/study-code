@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    max-width: 1200px;
+    margin: auto;
+}
 
 header .header__top {
     display: flex;
@@ -14,6 +18,7 @@ header .header__top {
     top: 0;
     background: #61c0cf75;
     width: 100%;
+    max-width: 1200px;
 }
 
 header .header__top .search {
